@@ -1,0 +1,138 @@
+body{
+  transition: all 0.3s  ease-in-out;
+}
+
+.course{
+    background: url("Img/Background\ 1.jpg") no-repeat fixed;
+    width:auto;
+    height:auto;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .course .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap:5.2rem;
+    align-items: center;
+  }
+
+  .course .row .box {
+    border-radius: 2rem 2rem 2rem 2rem;
+    background: #ffffff;
+    margin-top: 10rem; 
+    margin-bottom: 5rem; 
+    flex:1 1 40rem; 
+    padding:2.5rem; 
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition:transform 600ms;
+  }
+  
+  .heading3 h3 {
+    color: white;
+    background: rgba(43, 42, 42, 0.862);
+    font-size:2rem; 
+    font-weight:700;  
+    letter-spacing:0.1rem; 
+    text-align:center; 
+    margin:auto; 
+    white-space:nowrap;
+  }
+  
+  .heading3 h3:before {
+    background-color: #000000;
+    content: '';
+    display: block;
+    height: 3px;
+    width:auto;
+    margin-bottom: 5px;
+  }
+  
+  .heading3 h3:after {
+    background-color: #000000;
+    content: '';
+    display: block;
+    height: 0.3rem;
+    width:auto;
+    margin-top: 0.5rem;
+  }
+
+
+.table {
+  width: 100%;
+  color: #212529;
+  vertical-align: top;
+  border-color: #dee2e6;
+}
+
+table {
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+user agent stylesheet
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+.tbody, td, tfoot, tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  border: 2px solid black;
+  padding:0.5rem;
+}
+
+td {
+  font-size: 1.5rem;
+}
+
+tr {
+  font-weight: 600;
+}
+
+.cs{
+    background: url("Img/Background\ 1.jpg") no-repeat fixed;
+    width:auto;
+    height:auto;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .cs .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap:5.2rem;
+    align-items: center;
+  }
+  
+  .cs .row .box {
+    border-radius: 2rem 2rem 2rem 2rem;
+    background: #ffffff;
+    margin-top: 10rem; 
+    margin-bottom: 5rem; 
+    flex:1 1 40rem; 
+    padding:2.5rem; 
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+    transition:transform 600ms;
+  }
+
+@media (max-width:480px){
+
+  .course .row .box { 
+    margin-bottom: 2rem; 
+    padding:3rem; 
+    cursor: none;
+  }
+
+}
